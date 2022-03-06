@@ -1,0 +1,52 @@
+.Upload{
+    position: relative;
+}
+#UploadIcon{
+   /* position: relative;*/
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255,255,255,0.5);
+    border: 2px solid;
+    border-radius: 15px;
+    color: rgba(255,255,255,0.8);
+}
+#UploadFile{
+    position: absolute;
+    top:0px;
+    left: 15px;
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+
+}
+#load{
+ /*   position: relative;
+    top: 500px;
+    left: 250px;*/
+}
+.cart-game-name{
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: "Calibri Light";
+    color: rgba(255,255,255,0.8);
+}
+.cart-game-name:hover{
+    color: rgba(255,255,255,0.5);
+}
+.cart-game{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Calibri Light";
+    color: rgba(255,255,255,0.8);
+}
+
+.cart-game:hover{
+    color: rgba(255,255,255,0.5);
+}
+
+.cart-game-price{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Calibri Light";
+    color: rgba(255,255,255,0.8);
+}

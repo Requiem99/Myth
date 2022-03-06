@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#nav01{
+    width: 100%;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.8);
+    position:relative ;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    background-image: url("../image/static/logo1.png");
+    position: absolute;
+    left: 160px;
+}
+#seek{
+    height: 40px;
+    width: 200px;
+    position:absolute;
+    /*left: 50%;
+    transform: translateX(-50%); */
+    right: 170px;
+    border-radius: 5px;
+    top: 55px;
+    font-size: 20px;
+    border: 3px solid;
+    z-index: 999;
+}
+#seek_image{
+    width: 40px;
+    height: 40px;
+    background-image: url("../image/static/seek.png");
+    position: absolute;
+    top: 55px;
+    right:370px;
+    z-index: 999;
+}
+#nav02{
+    height: 60px;
+    width: 300px;
+    list-style-type: none;
+    position: absolute;
+    left: 260px;
+
+}
+#nav02>li>a{
+    float: left;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15px;
+    right: 10px;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+#nav03{
+
+    list-style-type: none;
+    position: absolute;
+    top: 18px;
+    right: 170px;
+    
+}
+
+#language_image{
+    width: 30px;
+    height: 30px;
+    /*background-image: url("../image/static/language.png");*/
+    position: absolute;
+    top: 15px;
+    right: 270px;
+}
+#nav03>li>a{
+    float: left;
+    margin-left: 25px;
+   /* height: 25px;
+    width: 50px;*/
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15px;
+    right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/*#detaile{
+    margin-top: 60px;
+    height: 180px;
+    width:60px
+}*/
+#nav02>li>a:hover{
+   color: #8357fa;
+}
+#nav03>li>a:hover{
+   color: #8357fa;
+}
+.yes:hover{
+    color: #8357fa;
+}
+#login_image{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+#menu{
+    position: relative;
+    width: 100%;
+    height:auto;
+    min-height: 2400px;
+    margin: 0 auto;
+   /* background-color: rgba(0,0,0,0.8);*/
+}
+
+/*#background{
+    width: 1200px;
+    height: auto;
+    min-height: 2500px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.8);
+    z-index: -1;`
+}*/
+
+
+#exhibition{
+    position:absolute;
+    width: 1000px;
+    height: 530px;
+   /*  background-image: url("../../image/4/red_dead22.png"); */
+    top: 100px;
+    left: 140px;
+    float: left;
+    overflow: hidden;
+    border-radius: 18px;
+}
+#exhibition img{
+    position:absolute;    
+    float: left;
+    opacity:0;
+    transition:opacity 2s;
+   /*  overflow: hidden;  */
+}
+#exhibition img:first-child{
+    opacity:1
+}
+
+#list{
+    position: absolute;
+    list-style-type: none;
+    right: 270px;
+    top: 100px;
+}
+.list>li{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(0,0,0,0.8);
+    font-size: 17px;
+    color: #fff;
+    text-align: left;
+    margin-top: 5px;
+}
+#list>li>img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#list>li{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#list2>li{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#list2{
+    position: absolute;
+    list-style-type: none;
+    right: 170px;
+    top: 100px;
+
+}
+.list>li>a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+#menu02{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top:630px ;
+    left: 200px;
+}
+
+#dropdownMenu1{
+
+}
+.nav01{
+    height: 60px;
+    background-color:rgba(0, 0, 0, 0.8);
+
+}
+.navbar-header>img{
+    height: 60px;
+    width: 120px;
+}
+.nav>li{
+   /* margin-right: 10px;*/
+    margin-top: 5px;
+}
+.nav>li>a{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Calibri Light";
+
+    color: #FFFFFF;
+}
+.nav>li>a:hover{
+    color: #8357fa;
+}
+.get-top{
+    width: 50px;
+    height: 50px;
+    border:solid 5px #FFFFFF;
+    border-radius: 5px;
+}

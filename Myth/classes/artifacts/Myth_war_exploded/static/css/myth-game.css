@@ -1,0 +1,148 @@
+.game-name{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #3e3e3e;
+    line-height: 40px;
+    width:13em;/*保证文字不会被半汉字截断,显示15个文字*/
+    overflow:hidden;/*超出长度的文字隐藏*/
+    text-overflow:ellipsis;/*文字隐藏以后添加省略号*/
+    white-space:nowrap;/*强制不换行*/
+}
+.game-name-show{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #3e3e3e;
+    line-height: 30px;
+    width:11em;/*保证文字不会被半汉字截断,显示15个文字*/
+    overflow:hidden;/*超出长度的文字隐藏*/
+    text-overflow:ellipsis;/*文字隐藏以后添加省略号*/
+    white-space:nowrap;/*强制不换行*/
+}
+.imges{
+    width: 995px;
+}
+#myGame{
+    position: absolute;
+    height: 163px;
+    width: 995px;
+    top: 420px;
+}
+.myButton{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.memee{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.domain{
+    margin-left: 15px;
+}
+.game-time{
+    font-size: 18px;
+}
+.inn{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    color: #000;
+}
+.games-reveal{
+    margin-left: 10px;
+    width: 150px;
+    height: 175px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.games-reveal:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.games-reveal-name{
+    cursor:default;
+    color:#fff;
+}
+.games-reveal-name:hover{
+    background-color:rgba(255,255,255,0.3);
+}
+
+.intro-title {
+    color: rgba(255,255,255,0.4);
+}
+.control-label{
+    color: rgba(255,255,255,0.4);
+}
+.unable-click{
+   /* cursor:not-allowed;*/
+    pointer-events: none;/*按扭的原有事件不能实现*/
+}
+
+.game-intro-title{
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+.font-color{
+    color: rgba(255,255,255,0.5);
+}
+
+/*-------comment----------*/
+.writ-comment{
+    min-height: 150px;
+    height: auto;
+    min-width: 850px;
+    max-width: 850px
+}
+
+#comment-all{
+    background-color: rgba(255,255,255,0.2);
+    background-image:linear-gradient(#082F42,#0F5F85);
+    padding: 10px;
+    padding-top: 20px
+}
+.comment-item{
+    background-color: rgba(255,255,255,0.2);
+    background-image:linear-gradient(#082F42,#0F5F85);
+    min-height: 250px;height:auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.comment-title{
+    color: #FFFFFF;
+}
+.comment-font{
+   color: #FFFFFF;
+}
+.comment-recent{
+    background-color: #9acfea;
+    min-height: 50px;
+    max-height:260px;
+    width: 300px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-content-recent {
+    display: -webkit-box;
+    -webkit-line-clamp:10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.show-all-content{/*展开评论*/
+    cursor:pointer;
+    color: #05B8F7;
+}
+.show-all-content:hover{
+    color: rgba(0,255,255,0.8);
+}
+.thumbs{
+    height: 28px;
+    width:54px;
+    cursor:pointer;
+    transition: 0.2s;
+}
+.thumbs:hover{
+    transform: scale(1.1);
+}
